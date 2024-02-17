@@ -2,3 +2,9 @@
 .small_margin {
     margin-top: -4px;
 }
+.address_border {
+    border-color: #ECEEF1;
+    border-width: 2px;
+    border-style: solid ; 
+    border-radius: 12px;
+}
