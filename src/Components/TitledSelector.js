@@ -7,29 +7,32 @@ const Select = styled.select`
     -webkit-appearance: none !important; 
     appearance: none !important;
     outline: none;
-    border-radius: 0px;
-    border: solid #152842 1px;
-    background-color: #D9E2EF;
-    color: #666787;
+    border-radius: 20px;
+    border: solid #E2E8F0 1px;
+    background-color: #F8FAFC;
+    color: #0F172A;
     &:hover {
-        background-color: #D9E2EFB8;
+        background-color: #E2E8F0;
     }
 `;
 
 function TitledSelector({title, options}) {
     const Title = title === undefined ? 
-        (<div></div>) : 
-        (<div>{title}</div>);
+        (<div class = 'caption' ></div>) : 
+        (<div class = 'caption'>{title}</div>);
+    const Select123 = (
+        <Select className='p-2 small_margin'>
+        {options.map(optionName => {
+            return (
+                <option key={optionName}>{optionName}</option>
+            );
+        })}
+    </Select>
+    );
     return (
         <div className='d-flex flex-column gap-2'>
             {Title}
-            <Select className='p-2'>
-                {options.map(optionName => {
-                    return (
-                        <option key={optionName}>{optionName}</option>
-                    );
-                })}
-            </Select>
+            {Select123}
         </div>
     );
 }
