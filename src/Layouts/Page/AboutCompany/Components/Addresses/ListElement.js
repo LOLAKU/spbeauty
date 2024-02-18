@@ -5,6 +5,7 @@ import RemoveIcon from '../../../../../Icons/RemoveIcon';
 import IconOnlyButton from '../../../../../Components/IconOnlyButton.js';
 
 const Option = styled.div`
+margin-right: 50px;
 `;
 
 function ListElement(props) {

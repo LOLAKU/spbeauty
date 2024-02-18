@@ -8,3 +8,68 @@
     border-style: solid; 
     border-radius: 12px;
 }
+
+.address_padding {
+    padding-top: 50px;
+    padding-right: 24px;
+    padding-bottom:10px;
+    padding-left: 24px;
+}
+
+.address_style {
+    width: 453px;	
+    height: 420px;
+    margin-top: 48px;
+    margin-right: 135px;
+    margin-bottom: 270px;
+    margin-left: 96px;
+}
+
+.padding123 {
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom:10px;
+    padding-left: 24px;
+}
+
+.padding124 {
+    padding-top: 40px;
+    padding-right: 24px;
+    padding-left: 0px;
+    width: 420px;	
+    height: 18px;
+}
+
+.margin_bottom {
+    margin-top: 24px;
+    margin-right: 212px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+.text_margin {
+    margin-top: 72px;
+    margin-right: 24px;
+    margin-bottom: 82px;
+    margin-left: 24px;
+}
+
+.address_style-nomber {
+    width: 447px;	
+    height: 398px;
+    margin-top: 48px;
+    margin-right: 96px;
+    margin-bottom: 292px;
+    margin-left: 72px;
+}
+
+.icon_musorka {
+    padding-top: 19px;
+    padding-right: 24px;
+    padding-left: 10px;
+    width: 56px;	
+    height: 28px;
+}
+.icon_pen {
+
+}
