@@ -13,7 +13,7 @@ body {
 .title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 18px;
+  line-height: 24px;
 }
 
 .text-md {
@@ -37,7 +37,7 @@ input,
 .caption {
   font-weight: 400;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 18px;
   color: #94A3B8
 }
 
@@ -57,11 +57,11 @@ input,
 .text-caption-rg {
   font-weight: 400;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 18px;
 }
 
 .text-caption-sm {
   font-weight: 400;
   font-size: 8px;
-  line-height: 8px;
+  line-height: 12px;
 }
