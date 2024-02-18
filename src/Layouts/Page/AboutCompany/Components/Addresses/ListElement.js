@@ -5,12 +5,12 @@ import RemoveIcon from '../../../../../Icons/RemoveIcon';
 import IconOnlyButton from '../../../../../Components/IconOnlyButton.js';
 
 const Option = styled.div`
-margin-right: 50px;
+margin-right: 24px;
 `;
 
 function ListElement(props) {
     return (
-        <div className='d-flex flex-row align-items-center align-self-stretch gap-2'>
+        <div className='d-flex flex-row align-self-stretch gap-2 justify-content-space-between'>
             <Option className='flex-grow-1 p-2'>{props.children}</Option>
             <IconOnlyButton icon={<EditIcon/>}/>
             <IconOnlyButton icon={<RemoveIcon/>}/> 

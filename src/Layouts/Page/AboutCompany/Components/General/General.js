@@ -2,7 +2,7 @@ import Profile from "./Components/Profile/Profile";
 import Preferences from "./Components/Preferences";
 function General() {
     return (
-        <div className='col address_border address_style-nomber'>
+        <div className='col'>
             <Profile/> {/* Фото компании, название, тип и адрес */}
             <Preferences/> {/* Инпуты, где можно поменять название, тип и адрес */}
         </div>

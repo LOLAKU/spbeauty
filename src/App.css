@@ -10,9 +10,9 @@
 }
 
 .address_padding {
-    padding-top: 50px;
+    padding-top: 24px;
     padding-right: 24px;
-    padding-bottom:10px;
+    padding-bottom:24px;
     padding-left: 24px;
 }
 
@@ -21,16 +21,15 @@
     height: 420px;
     margin-top: 48px;
     margin-right: 135px;
-    margin-bottom: 270px;
     margin-left: 96px;
 }
 
-.padding123 {
+/* .padding123 {
     padding-top: 24px;
     padding-right: 24px;
-    padding-bottom:10px;
+    padding-bottom:24px;
     padding-left: 24px;
-}
+} */
 
 .padding124 {
     padding-top: 40px;
@@ -54,13 +53,6 @@
     margin-left: 24px;
 }
 
-.address_style-nomber {
-    width: 447px;	
-    height: 398px;
-    margin-top: 48px;
-    margin-right: 96px;
-    margin-bottom: 292px;
-}
 
 .icon_musorka {
     padding-top: 19px;
@@ -71,4 +63,48 @@
 }
 .icon_pen {
 
+}
+
+
+.bottom_style {
+    margin-right: 135px;
+}
+
+.zagolovok_style {
+    padding-top: 30px;
+    padding-left: 72px;
+}
+
+.knopka {
+    padding-top: 174px;
+    padding-right: 212px;
+    padding-left: 0px;
+}
+
+.zagolovok_style-obchee {
+      margin-top: 48px;
+    /* padding-top: px; */
+    /* padding-right: 212px; */
+    padding-left: 72px;
+}
+
+.adress_ramka {
+    margin-top: 48px;
+}
+
+.text_sprofil {
+    padding-top: 20px;
+}
+
+.zagolovok_style-obchee-adresa {
+    margin-top: 20px;
+  /* padding-right: 212px; */
+  padding-left: 72px;
+}
+
+.padding-grafa {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 460px;	
+    height: 36px;
 }

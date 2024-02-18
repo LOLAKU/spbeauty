@@ -21,7 +21,7 @@ function SecondaryButton(props) {
 
     return (
         <Clickable >
-            <Button className='p-2 text-rg'>
+            <Button className='p-2 text-rg bottom_style'>
                 {props.children}
             </Button>
         </Clickable>
