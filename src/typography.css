@@ -41,6 +41,13 @@ input,
   color: #94A3B8
 }
 
+.caption123 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #94A3B8
+}
+
 .text-caption-md {
   font-weight: 500;
   font-size: 12px;

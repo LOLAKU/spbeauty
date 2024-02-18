@@ -10,9 +10,9 @@ function Addresses(props) {
             <div className='d-inline-flex flex-column gap-3 padding124'>
                 <ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement>
                 <ListElement>Санкт-Петербург, Казанская ул, 7</ListElement>
-                    {/* <div className='d-inline-flex flex-column gap-3 margin_bottom'> */}
+                    <div className='d-inline-flex flex-column gap-3 justify-content: start'>
                         <SecondaryButton>Добавить филиал</SecondaryButton>
-                    {/* </div> */}
+                    </div>
             </div>
         </div>
     );
